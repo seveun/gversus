@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  directus:
+    image: directus/directus:latest
+    ports:
+      - 8055:8055
+    volumes:
+      - .serviceAccountKey.json:/directus/.serviceAccountKey.json
+    env_file:
+      - .env
+    command: >
+      sh -c "
+        # Démarre directement le serveur sans exécuter les migrations
+        npx directus start
+      "
+  backoffice-job:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: backoffice-job
+    container_name: backoffice-job
+    restart: always
+    ports:
+      - 3000:3000
+    env_file:
+      - .env

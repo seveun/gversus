@@ -1,0 +1,19 @@
+{
+    "dialog.confirm.message": "Are you sure?",
+    "dialog.button.cancel": "Cancel",
+    "dialog.button.confirm": "Confirm",
+
+    "modal.battle.create.title": "Create a battle",
+    "modal.battle.join.title": "Join the battle created by ",
+    "modal.battle.create.button": "Create the battle for ",
+    "modal.battle.join.button": "Join the battle for ",
+    "modal.battle.public": "Public",
+    "modal.battle.private": "Private",
+    "modal.battle.status": "Status",
+    "modal.battle.mode": "Mode",
+    "modal.battle.game.mode": "Game mode",
+    "modal.battle.bot": "Number of bots",
+    "modal.battle.password": "Password:",
+    "modal.share.title": "Invite your friends",
+    "modal.share.description": "Share the link with your friends"
+}

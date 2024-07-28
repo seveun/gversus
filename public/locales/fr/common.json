@@ -1,0 +1,71 @@
+{
+    "error.default": "Une erreur est survenue",
+
+    "boxes.title": "Caisses en vedette",
+    "boxes.overview.button": "Voir toutes les caisses",
+    "box.buyer.price.max": "Prix le plus élevé",
+    "box.buyer.price.min": "Prix le plus bas",
+    "box.buyer.fastopening": "Ouverture rapide",
+    "box.buyer.buy": "Acheter ",
+
+    "battle.cancel.message": "La bataille a été annulée",
+    "battle.overview.title": "Battle",
+    "battle.overview.button": "Voir les batailles",
+    "battle.buyer.button.cancel": "Annuler",
+
+    "livedrop.title": "Livedrop",
+    "livedrop.description": "utilisateurs connectés",
+
+    "ultime-xp-cards.title": "Jouez sur RarityCase pour une expérience ultime.",
+    "ultime-xp-cards.card.1.title": "Une multitude de caisses",
+    "ultime-xp-cards.card.1.description": "La caisse parfaite pour vous n'est qu'à un clic, que vous recherchiez des baskets, du luxe, etc.",
+    "ultime-xp-cards.card.2.title": "Articles garantis",
+    "ultime-xp-cards.card.2.description": "Chaque article de RarityCase est méticuleusement vérifié pour son authenticité.",
+    "ultime-xp-cards.card.3.title": "Sans taxes dans le monde entier",
+    "ultime-xp-cards.card.3.description": "Toutes les taxes sont déjà couvertes par RarityCase, quel que soit votre lieu de résidence.",
+
+    "embedsocial.title": "Les gains les plus récents obtenus par nos joueurs.",
+    "embedsocial.description": "Découvrez les gains reçus par nos utilisateurs. Si vous souhaitez également partager votre victoire, n'hésitez pas à mentionner @rarityCase sur X.",
+
+    "livebattle.private": "Privée",
+    "livebattle.public": "Publique",
+    "livebattle.status.finished": "Terminée",
+    "livebattle.status.canceled": "Annulée",
+    "livebattle.status.pending": "En attente de joueurs",
+    "livebattle.status.started": "Manche {{step}} sur {{total}}",
+    "livebattle.status.pre-started": "Debut...",
+    "livebattle.status.unboxed": "Ouverte",
+    "livebattle.status.join": "Rejoindre pour ",
+
+    "filter.sort.placeholder": "Trier par",
+    "filter.sort.none": "Aucun",
+    "filter.sort.price-low": "Prix (Min to Max)",
+    "filter.sort.price-high": "Prix (Max to Min)",
+    "filter.sort.newest": "Récent",
+    "filter.sort.oldest": "Ancien",
+    "filter.category.placeholder": "Catégorie" ,
+    "filter.pricerange.placeholder": "Price range",
+    "filter.rounds.placeholder": "Rounds",
+    "filter.mode.placeholder": "Mode",
+    "filter.risingPrice": "Prix croissant",
+    "filter.decreasingPrice": "Prix décroissant",
+
+
+    "itemgrid.title": "Articles dans cette caisse",
+    "best.unboxed": "Meilleures caisses",
+    "recently.unboxed": "Ouverte récemment",
+    "players": "Joueurs",
+    "disabled": "Désactivé",
+    "enabled": "Activé",
+    "with": "avec",
+    "bet": "Parier",
+    "step": "Étape",
+    "items": "Articles",
+    "back": "Retour",
+    "search": "Rechercher",
+    "anonymous": "Anonyme",
+    "missing.player": "Joueur manquant",
+    "or": "OU",
+
+    "phone.verify": "Vérifier mon numéro de téléphone"
+}

@@ -1,0 +1,6 @@
+functions/*
+
+!functions/src
+
+functions/src/*
+!functions/src/schemas

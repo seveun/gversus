@@ -1,0 +1,23 @@
+{
+    "menu-title-1": "Principal",
+    "menu-home": "Inicio",
+    "menu-boxes": "Cajas",
+    "menu-free-boxes": "Cajas gratuitas",
+    "menu-title-2": "Juegos",
+    "menu-battles": "Batallas",
+    "menu-crashpoint": "Crashpoint",
+    "menu-memo": "Rarity Memo",
+    "menu-title-3": "Ayuda",
+    "menu-contact": "Contacto",
+    "menu-how-it-works": "¿Cómo funciona?",
+    "user-menu-wallet": "Billetera",
+    "user-menu-settings": "Configuraciones",
+    "user-menu-security": "Seguridad",
+    "user-menu-sessions": "Sesiones",
+    "user-menu-transactions": "Transacciones",
+    "user-menu-inventory": "Inventario",
+    "user-menu-orders": "Pedidos",
+    "user-menu-affiliate": "Afiliación",
+    "user-profile-progress": "Tu progreso",
+    "user-profile-level": "Nivel"
+}
