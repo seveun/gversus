@@ -26,9 +26,6 @@ interface UserContextProps {
   setIsLoading: (loading: boolean) => void;
   resetPasswordCode: string | null;
   wallet: string | null;
-  vipModalOpened: boolean;
-  openVipModal: () => void;
-  closeVipModal: () => void;
 }
 
 export const UserContext = createContext<UserContextProps | undefined>(
@@ -45,7 +42,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({
   const [verifMailOpened, setVerifMailOpened] = useState<boolean>(false);
   const [verifTwoFactorOpened, setVerifTwoFactorOpened] =
     useState<boolean>(false);
-  const [vipModalOpened, setVipModalOpened] = useState<boolean>(false);
   const [username, setUsername] = useState<string>();
   const searchParams = useSearchParams();
   const resetPasswordCode = searchParams.get("resetPassword");
@@ -70,7 +66,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({
           tempUser.firebase = firebaseUserRef.current;
           if (verifMailOpened) closeVerifMailModal();
           if (verifTwoFactorOpened) closeTwoFactorModal();
-          if (vipModalOpened) closeVipModal();
           if (sessionId !== tempUser.sessionId) {
             localStorage.setItem("sessionId", tempUser.sessionId);
           }
@@ -112,8 +107,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({
   const closeVerifMailModal = () => setVerifMailOpened(false);
   const closeTwoFactorModal = () => setVerifTwoFactorOpened(false);
   const openTwoFactorModal = () => setVerifTwoFactorOpened(true);
-  const openVipModal = () => setVipModalOpened(true);
-  const closeVipModal = () => setVipModalOpened(false);
 
   const refreshUser = async () => {
     if (firebaseUserRef.current) {
@@ -173,9 +166,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({
         closeTwoFactorModal,
         openTwoFactorModal,
         resetPasswordCode,
-        vipModalOpened,
-        openVipModal,
-        closeVipModal,
       }}
     >
       {children}
