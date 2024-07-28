@@ -9,6 +9,7 @@ import User from "@/types/User";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/router";
 import Cookies from "js-cookie";
+
 interface UserContextProps {
   user: User | null;
   loginModal: string | boolean;

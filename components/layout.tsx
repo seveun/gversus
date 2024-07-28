@@ -1,7 +1,6 @@
 import LoginModal from "@/components/modal/loginModal";
 import EmailVerifModal from "@/components/modal/emailVerifModal";
 import TwoAuthModal from "@/components/modal/twoAuthModal";
-import VipModal from "@/components/modal/vipModal";
 import { Toaster } from "@/components/ui/sonner";
 import { useUser } from "@/hooks/useUser";
 import { useRouter } from "next/router";
