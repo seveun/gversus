@@ -15,7 +15,7 @@ export class Transaction extends Model<InferAttributes<Transaction>> {
   declare id: string;
 
     @Attribute(DataTypes.STRING)
-    declare type: 'deposit' | 'sold' | 'loss' | 'item' | 'ordered' | 'canceled' | 'withdrawal';
+    declare type: 'deposit' | 'loss' | 'canceled' | 'withdrawal';
 
     @Attribute(DataTypes.FLOAT)
     declare amount: number;
@@ -26,17 +26,10 @@ export class Transaction extends Model<InferAttributes<Transaction>> {
     @Attribute(DataTypes.STRING)
     declare wallet: string;
 
-    @Attribute(DataTypes.INTEGER)
-    declare level: number | null;
-
     @BelongsTo(() => User, 'userId')
     declare user?: User;
 
     declare gameId?: string;
-
-    @Attribute(DataTypes.STRING)
-    @AllowNull
-    declare status?: 'WAITING_APPROVAL' | 'SHIPPING' | 'DELIVERED' | 'CANCELED';
 
     @BelongsTo(() => Game, 'gameId')
     declare game?: Game;
